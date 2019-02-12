@@ -1,0 +1,83 @@
+<!--
+    Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
+	Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+
+	You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+
+
+	User Story #1: My portfolio should have a welcome section with an id of welcome-section.
+	User Story #2: The welcome section should have an h1 element that contains text.
+	User Story #3: My portfolio should have a projects section with an id of projects.
+	User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
+	User Story #5: The projects section should contain at least one link to a project.
+	User Story #6: My portfolio should have a navbar with an id of navbar.
+	User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+	User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
+	User Story #9: My portfolio should have at least one media query.
+	User Story #10: The height of the welcome section should be equal to the height of the viewport.
+	User Story #11: The navbar should always be at the top of the viewport.
+
+	You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: 	https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+	Once you're done, submit the URL to your working project with all its tests passing.
+
+-->
+
+
+<head>
+    <link rel="stylesheet" href="CSS/project05.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="JS/project05.js"></script>
+</head>
+
+
+<nav>
+    <ul id='navbar'>
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div id="welcome-section" class="intro">
+
+    <h1>Hey i'am Anirudh.</h1>
+    <p>a Software Developer</p>
+
+
+</div>
+<div id="projects" class="work">
+    <h2 class="work-header">These are some of my projects..</h2>
+    <a href="https://codepen.io/anirudhsharma/pen/ZwrPbL" target="_blank" class="project project-tile">
+        <img class="project-pic" src="https://i.pinimg.com/originals/4a/85/20/4a8520b2afe2464fdc71a2b2f00271e6.jpg" alt="project">
+        <div class="project-title">Tribute Page</div>
+    </a>
+    <a href="https://codepen.io/anirudhsharma/pen/LqmMXK" target="_blank" class="project project-tile">
+        <img class="project-pic" src="https://assets.plan.io/images/blog/5-setps-to-create-technical-documentation.png"
+            alt="project">
+        <div class="project-title">Technical Documentation</div>
+    </a>
+    <a href="https://codepen.io/anirudhsharma/pen/xMWQqP" target="_blank" class="project project-tile">
+        <img class="project-pic" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="project">
+        <div class="project-title">Product Landing Page</div>
+    </a>
+    <a href="https://codepen.io/anirudhsharma/pen/exMGBO" target="_blank" class="project project-tile">
+        <img class="project-pic" src="https://i.pinimg.com/originals/e9/76/43/e976437c24037b1f9e58461cbad86503.png" alt="project">
+        <div class="project-title">Survey Form</div>
+    </a>
+    <a href="https://codepen.io/anirudhsharma/" class="show-all" target="_blank">Show all</a>
+</div>
+<div id="contact" class="contact">
+    <div class="header">
+        <h1>Let's work together...</h1>
+        <p>How do you take your coffee?</p>
+    </div>
+    <a href="https://facebook.com/ani35" target="_blank" class="contact-details">Facebook</a>
+    <a id='profile-link' href="https://github.com/ani03sha" target="_blank" class="contact-details">GitHub</a>
+    <a href="https://twitter.com/I_Am_Anirudh" target="_blank" class="contact-details">Twitter</a>
+    <a href="mailto:anirudh03sharma@gmail.com" class="contact-details">Send a mail</a>
+    <a href="tel:9650300232" class="contact-details">Call me</a>
+</div>
+<footer>Hope to connect you soon!
+    <p>&copy; Created for <a href="http://digitalgeenie.com" target="_blank">Digital Geenie</a></p>
+</footer>
